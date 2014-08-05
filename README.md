@@ -1,0 +1,7 @@
+# One Month Rails
+
+This is the pinteresting sample appliction.
+
+Following osam tutorial at one month rails by Mattan Griffel at
+https://onemonth.com/
+
