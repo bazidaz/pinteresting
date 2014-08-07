@@ -1,62 +1,14 @@
-$body-bg: #2980b9;
-$navbar-inverse-bg:#ecf0f1 ;
-$navbar-inverse-link-hover-bg: #e67e22;
-$navbar-inverse-brand-hover-bg: #e67e22;
-
-
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+$body-bg: #ecf0f1;
+$font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height: 45px;
+$navbar-default-bg: white;
+$navbar-default-brand-color: #c0392b;
+$brand-primary:  #c0392b;
+$jumbotron-bg:white;
 
 @import 'bootstrap';
 
-.under {
-    width: 100px;
-    height: 100px;
-    background: red;
-    position: relative;
-    /* Chrome, Safari, Opera */
-    -webkit-animation-name: myfirst;
-    -webkit-animation-duration: 5s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    -webkit-animation-play-state: running;
-    /* Standard syntax */
-    animation-name: myfirst;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-play-state: running;
+.center {
+     text-align: center;
 }
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes myfirst {
-    0%   {background:red; left:0px; top:0px;}
-    25%  {background:yellow; left:200px; top:0px;}
-    50%  {background:blue; left:200px; top:200px;}
-    75%  {background:green; left:0px; top:200px;}
-    100% {background:red; left:0px; top:0px;}
-}
-
-/* Standard syntax */
-@keyframes myfirst {
-    0%   {background:red; left:0px; top:0px;}
-    25%  {background:yellow; left:200px; top:0px;}
-    50%  {background:blue; left:200px; top:200px;}
-    75%  {background:green; left:0px; top:200px;}
-    100% {background:red; left:0px; top:0px;}
-}
-
-.test{
-    width:60%;
-    height: 100%;
-    background-color:#9b59b6;
-    padding:0px;
-    margin:0px;
-    opacity: 0.7;
-    text-align: center;
-}
-
-
-
