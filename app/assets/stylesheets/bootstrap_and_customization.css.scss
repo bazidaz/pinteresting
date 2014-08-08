@@ -12,3 +12,12 @@ $jumbotron-bg:white;
 .center {
      text-align: center;
 }
+
+.position {
+     left:25px;
+}
+
+/* Remember me on Sign in page was off with bootstrap, have to fix it manually */
+.rem-me{   
+   top:-25px;
+}
