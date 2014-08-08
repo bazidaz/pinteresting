@@ -26,4 +26,7 @@ Pinteresting::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+  
+  #require for heroku
+  config.action_mailer.default_url_options = { host: 'first-129581.apse2.nitrousbox.com:3000' }
 end
