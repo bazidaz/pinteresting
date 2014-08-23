@@ -5,7 +5,7 @@ class PinsController < ApplicationController
  
 
   def index
-    @pins = Pin.all
+    @pins = Pin.all.order("created_at DESC")
   end
 
 
@@ -45,7 +45,7 @@ class PinsController < ApplicationController
     head :no_content 
     end
 
-
+ 
 
   private
     # Use callbacks to share common setup or constraints between actions.
